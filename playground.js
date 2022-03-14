@@ -2,15 +2,5 @@ const S = require("string")
 const { format } = require("make_legit")
 const b = require("./index.js")
 
-// /
-function STARTSWITH(string, substring) {
-    let first = format(string, "string")
-    let second = format(substring, "string")
-    let getBoolean = S(first).startsWith(second)
-    return getBoolean;
-}
-
-
-let trueStarts = STARTSWITH("hi", "h")
-
-console.log("🚀 ~ file: playground.js ~ line 21 ~ trueStarts", trueStarts)
+let isLessDates = b.ISLESS("1994-12-11", "1995-12-12", "date")
+console.log("🚀 ~ file: playground.js ~ line 21 ~ trueStarts", isLessDates)
