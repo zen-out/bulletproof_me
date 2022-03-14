@@ -1639,7 +1639,7 @@
 
             function o() { var e = s("hello hellodi", "div", 2);
                 console.log("🚀 ~ file: counts.js ~ line 102 ~ TESTCOUNTS ~ shouldBeTrue", e); var t = _(1, 2, "number");
-                console.log("🚀 ~ file: counts.js ~ line 104 ~ TESTCOUNTS ~ test2", t); var a = _("Dec 11, 1993", "Dec 11, 1994", "date");
+                console.log("🚀 ~ file: counts.js ~ line 104 ~ TESTCOUNTS ~ test2", t); var a = _("1993-12-11", "1994-12-11", "date");
                 console.log("🚀 ~ file: counts.js ~ line 106 ~ TESTCOUNTS ~ isLessDates", a); var n = r("div div", "div", 1);
                 console.log("🚀 ~ file: counts.js ~ line 108 ~ TESTCOUNTS ~ atLeastTrue", n) }
 
