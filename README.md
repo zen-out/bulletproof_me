@@ -1,6 +1,7 @@
 # bulletproof_me
 [bulletproof_me - start here](https://zen-out.github.io/packages/bulletproof_me)
-[![here](https://github.com/zen-out/zen-out.github.io/blob/master/packages/videos/bulletproof_me.png)](https://github.com/zen-out/zen-out.github.io/blob/master/packages/videos/bulletproof_me.png)undefined
+[![here](https://github.com/zen-out/zen-out.github.io/blob/master/packages/videos/bulletproof_me.png)](https://github.com/zen-out/zen-out.github.io/blob/master/packages/videos/bulletproof_me.png)
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![NPM Downloads](https://img.shields.io/npm/dw/bulletproof_me)
 ## Instructions: 
@@ -8,8 +9,20 @@
  ``` const bulletproof_me =  require('bulletproof_me')```
 
 ## If utilizing in html...: 
-```<script src="https://cdn.jsdelivr.net/npm/bulletproof_me/dist/index.js"></script> ``` 
- ``` const output =  bulletproof_me.method(parameter)```
+- install moment, when_you_free, make_legit, whats_wrong
+```
+    <script src="https://cdn.jsdelivr.net/npm/moment@2.29.1/moment.min.js"></script>
+    <script src="./node_modules/when_you_free/index.js"></script>
+    <script src="./node_modules/make_legit/index.js"></script>
+    <script src="./node_modules/whats_wrong/index.js"></script>
+    <script src="./index.js"></script>
+    <script>
+        $(() => {
+            let final = bulletproof_me.ISLESS("1994-12-11", "1995-12-12", "date")
+            console.log(final)
+        })
+    </script>
+```
 
 ## Functions
 
@@ -40,10 +53,10 @@
 **Date**: 2022-02-09  
 **Author**: zen-out  
 
-| Param | Type |
-| --- | --- |
-| one | <code>any</code> | 
-| two | <code>any</code> | 
+| Param | Type             |
+|-------|------------------|
+| one   | <code>any</code> |
+| two   | <code>any</code> |
 
 **Example**  
 ```js
@@ -59,10 +72,10 @@ HAS([1, 2, 3], 1)
 **Date**: 2022-02-10  
 **Author**: zen-out  
 
-| Param | Type |
-| --- | --- |
-| string | <code>any</code> | 
-| substring | <code>any</code> | 
+| Param     | Type             |
+|-----------|------------------|
+| string    | <code>any</code> |
+| substring | <code>any</code> |
 
 **Example**  
 ```js
@@ -78,10 +91,10 @@ it("starts with", () => {
 **Date**: 2022-02-10  
 **Author**: zen-out  
 
-| Param | Type |
-| --- | --- |
-| string | <code>any</code> | 
-| substring | <code>any</code> | 
+| Param     | Type             |
+|-----------|------------------|
+| string    | <code>any</code> |
+| substring | <code>any</code> |
 
 **Example**  
 ```js
@@ -97,11 +110,11 @@ it("ends with", () => {
 **Date**: 2022-03-10  
 **Author**: zen-out  
 
-| Param | Type |
-| --- | --- |
-| type | <code>any</code> | 
-| item | <code>any</code> | 
-| amount | <code>any</code> | 
+| Param  | Type             |
+|--------|------------------|
+| type   | <code>any</code> |
+| item   | <code>any</code> |
+| amount | <code>any</code> |
 
 **Example**  
 ```js
@@ -115,11 +128,11 @@ COUNT("hello hellodi", "hello", 2) // true
 **Date**: 2022-02-10  
 **Author**: zen-out  
 
-| Param | Type |
-| --- | --- |
-| type | <code>any</code> | 
-| item | <code>any</code> | 
-| amount | <code>any</code> | 
+| Param  | Type             |
+|--------|------------------|
+| type   | <code>any</code> |
+| item   | <code>any</code> |
+| amount | <code>any</code> |
 
 **Example**  
 ```js
@@ -133,11 +146,11 @@ ATLEAST("div div", "div", 1) //true
 **Kind**: global function  
 **Date**: 2022-02-17  
 
-| Param | Type |
-| --- | --- |
-| first | <code>any</code> | 
-| second | <code>any</code> | 
-| type | <code>any</code> | 
+| Param  | Type             |
+|--------|------------------|
+| first  | <code>any</code> |
+| second | <code>any</code> |
+| type   | <code>any</code> |
 
 **Example**  
 ```js
@@ -155,10 +168,10 @@ T(ISLESS("a", "b", "string"))
 **Date**: 2022-02-10  
 **Author**: zen-out  
 
-| Param | Type |
-| --- | --- |
-| string | <code>any</code> | 
-| item | <code>any</code> | 
+| Param  | Type             |
+|--------|------------------|
+| string | <code>any</code> |
+| item   | <code>any</code> |
 
 **Example**  
 ```js
@@ -175,8 +188,8 @@ ISTYPEOFHELPER
 **Kind**: global function  
 **Date**: 2022-03-01  
 
-| Param | Type |
-| --- | --- |
-| data | <code>any</code> | 
-| type | <code>any</code> | 
+| Param | Type             |
+|-------|------------------|
+| data  | <code>any</code> |
+| type  | <code>any</code> |
 
