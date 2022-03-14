@@ -1,6 +1,6 @@
 {
     "name": "bulletproof_me",
-    "version": "1.0.7",
+    "version": "1.0.8",
     "description": "[bulletproof_me - start here](https://zen-out.github.io/packages/bulletproof_me)",
     "main": "index.js",
     "scripts": {
