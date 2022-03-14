@@ -1,7 +1,6 @@
 # bulletproof_me
 [bulletproof_me - start here](https://zen-out.github.io/packages/bulletproof_me)
-[![here](https://github.com/zen-out/zen-out.github.io/blob/master/packages/videos/bulletproof_me.png)](https://github.com/zen-out/zen-out.github.io/blob/master/packages/videos/bulletproof_me.png)
-
+[![here](https://github.com/zen-out/zen-out.github.io/blob/master/assets/images/bulletproof_me.png)](https://github.com/zen-out/zen-out.github.io/blob/master/assets/images/bulletproof_me.png)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![NPM Downloads](https://img.shields.io/npm/dw/bulletproof_me)
 ## Instructions: 
@@ -15,11 +14,23 @@
     <script src="./node_modules/when_you_free/index.js"></script>
     <script src="./node_modules/make_legit/index.js"></script>
     <script src="./node_modules/whats_wrong/index.js"></script>
-    <script src="./index.js"></script>
+    <script src="./node_modules/bulletproof_me/index.js"></script>
     <script>
         $(() => {
-            let final = bulletproof_me.ISLESS("1994-12-11", "1995-12-12", "date")
-            console.log(final)
+         let trueStarts = bulletproof_me.STARTSWITH("hi", "h")
+            console.log("🚀 ~ file: index.html ~ line 37 ~ trueStarts", trueStarts)
+                // let falseStarts = bulletproof_me.STARTSWITH("asdfasdf", "A")
+                // let trueEnds = bulletproof_me.ENDSWITH('HELLO', "O")
+                // let falseEnds = bulletproof_me.ENDSWITH("hello", "z")
+                // let trueHas = bulletproof_me.HAS("asdf", "sd")
+            let falseHas = bulletproof_me.HAS("asdf", "z")
+            console.log(falseHas)
+            let isLessDates = bulletproof_me.ISLESS("1994-12-11", "1995-12-12", "date")
+            console.log("🚀 ~ file: index.html ~ line 45 ~ isLessDates", isLessDates)
+                // let shouldBeTrue = bulletproof_me.COUNT("hello hellodi", "div", 2)
+                // let test2 = bulletproof_me.ISLESS(1, 2, "number")
+                // let atLeastTrue = bulletproof_me.ATLEAST("div div", "div", 1)
+                // let getFalse = bulletproof_me.DOESNOTHAVE("{{>", ">")
         })
     </script>
 ```
