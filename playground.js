@@ -1,2 +1,2 @@
-const bp = require("./dist/index.js")
+const bp = require("./index.js")
 bp.list()
